@@ -26,8 +26,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\layout admin\" />
+    <Folder Include="Views\Camera\" />
     <Folder Include="wwwroot\NewFolder\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Home\Admin.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

@@ -13,15 +13,23 @@ namespace DoAnThucTap.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-        public IActionResult login()
-        {
-            return View();
-        }
 
+        public IActionResult Main()
+        {
+            return View();
+        }
+        public IActionResult Login()
+        {
+            return View();
+        }
+        public IActionResult Register()
+        {
+            return View();
+        }
+        public IActionResult Admin()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
